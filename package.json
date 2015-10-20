@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "dependencies": {
-    "webrtcsupport": "^1.0.0"
+    "webrtcsupport": "git@github.com:EvolveLabs/webrtcsupport.git#master"
   },
   "devDependencies": {
     "attachmediastream": "1.0.1",
