@@ -2,7 +2,7 @@ var support = require('webrtcsupport');
 
 
 function GainController(stream) {
-    this.support = support.webAudio && support.mediaStream;
+    this.support = support.supportWebAudio && support.supportMediaStream;
 
     // set our starting value
     this.gain = 1;
